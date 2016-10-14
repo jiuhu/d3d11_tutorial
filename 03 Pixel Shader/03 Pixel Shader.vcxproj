@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Core\Input.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Core\System.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\Buffer\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\DxDevices.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\IRender.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\Shader\Shader.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\main.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Core\Input.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Core\System.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\Buffer\VertexBuffer.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\DxDevices.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\IRender.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\D3D11\Shader\Shader.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Scene.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Utilities\Debug.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Utilities\Helper.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\03 Pixel Shader\Utilities\Singleton.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{513064DB-DA2A-492E-AFB2-138FAD29A743}</ProjectGuid>
+    <RootNamespace>Practical</RootNamespace>
+    <ProjectName>03 Pixel Shader</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)output\</OutDir>
+    <IntDir>$(SolutionDir)_intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)output\</OutDir>
+    <IntDir>$(SolutionDir)_intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)include\;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)include\;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

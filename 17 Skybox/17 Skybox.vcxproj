@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Core\Input.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Core\System.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\ConstantBuffer.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\IndexedBuffer.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\DxDevices.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Geometry\Cube.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\IRender.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Shader\Shader.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\DDSTextureLoader.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\Texture.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\WICTextureLoader.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Entity\SkyBox.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Camera.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Lighting\Light.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Lighting\PhongLight.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\main.cpp" />
+    <ClCompile Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Core\Input.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Core\System.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\ConstantBuffer.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\IndexedBuffer.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Buffer\VertexBuffer.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\DxDevices.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Geometry\Cube.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\IRender.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Shader\Shader.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\DDSTextureLoader.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\Texture.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\D3D11\Texture\WICTextureLoader.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Entity\SkyBox.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Camera.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Color4f.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Lighting\Attenuation.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Lighting\Light.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Graphics\Lighting\PhongLight.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Scene.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Debug.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Helper.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Math\Matrix44f.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Math\MyMath.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Math\Vector2f.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Math\Vector3f.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Math\Vector4f.h" />
+    <ClInclude Include="..\..\JiuHu%27s working Direct3D 11\17 Skybox\Utilities\Singleton.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CBA1C29C-1417-4B6F-BD78-789F771C9B0C}</ProjectGuid>
+    <RootNamespace>Practical</RootNamespace>
+    <ProjectName>17 Skybox</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)output\</OutDir>
+    <IntDir>$(SolutionDir)_intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)output\</OutDir>
+    <IntDir>$(SolutionDir)_intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)include\;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)include\;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
